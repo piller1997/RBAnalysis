@@ -1,0 +1,122 @@
+{
+    "diff_data": {
+        "chunks": [
+            {
+                "index": 0,
+                "lines": [
+                    [
+                        51,
+                        51,
+                        "import com.vmturbo.api.enums.EnvironmentType;",
+                        [],
+                        51,
+                        "import com.vmturbo.api.enums.EnvironmentType;",
+                        [],
+                        false
+                    ],
+                    [
+                        52,
+                        52,
+                        "import com.vmturbo.api.exceptions.InvalidOperationException;",
+                        [],
+                        52,
+                        "import com.vmturbo.api.exceptions.InvalidOperationException;",
+                        [],
+                        false
+                    ]
+                ],
+                "numlines": 52,
+                "meta": {
+                    "right_headers": [],
+                    "left_headers": []
+                },
+                "collapsable": true,
+                "change": "equal"
+            },
+            {
+                "index": 2,
+                "lines": [
+                    [
+                        59,
+                        "",
+                        "",
+                        [],
+                        42,
+                        "import com.vmturbo.api.pagination.GroupMembersPaginationRequest.GroupMemberOrderBy;",
+                        [],
+                        false
+                    ],
+                    [
+                        60,
+                        "",
+                        "",
+                        [],
+                        60,
+                        "import com.vmturbo.api.pagination.GroupMembersPaginationRequest.GroupMembersPaginationResponse;",
+                        [],
+                        false
+                    ]
+                ],
+                "numlines": 3,
+                "meta": {
+                    "right_headers": [],
+                    "whitespace_chunk": false,
+                    "left_headers": [],
+                    "whitespace_lines": []
+                },
+                "collapsable": false,
+                "change": "insert"
+            },
+            {
+                "index": 12,
+                "lines": [
+                    [
+                        186,
+                        179,
+                        "    public List&lt;?&gt; getMembersByGroupUuid(",
+                        [
+                            [
+                                11,
+                                11
+                            ],
+                            [
+                                16,
+                                17
+                            ]
+                        ],
+                        168,
+                        "    public ResponseEntity&lt;List&lt;BaseApiDTO&gt;&gt; getMembersByGroupUuid(",
+                        [
+                            [
+                                11,
+                                26
+                            ],
+                            [
+                                31,
+                                42
+                            ]
+                        ],
+                        false
+                    ]
+                ],
+                "numlines": 1,
+                "meta": {
+                    "right_headers": [],
+                    "whitespace_chunk": false,
+                    "left_headers": [],
+                    "whitespace_lines": []
+                },
+                "collapsable": false,
+                "change": "replace"
+            }
+        ],
+        "binary": false,
+        "changed_chunk_indexes": [
+            2,
+            12
+        ],
+        "num_changes": 2,
+        "new_file": false
+    },
+    "stat": "ok"
+}

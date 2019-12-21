@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" name="VMTurbo">
+    <Appenders>
+        <Console name="stdout" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd-MM-yyyy_HH:mm:ss} %-5p [%c{1}]: %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="com.vmturbo.tools.rbanalysis" level="all">
+        </Logger>
+    </Loggers>
+</Configuration>

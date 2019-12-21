@@ -1,0 +1,3 @@
+- Validate parameters from configuration file.
+  - Check for absence/presence of prefixed/suffixed slashes
+  - Check for protofol in "site" parameter
